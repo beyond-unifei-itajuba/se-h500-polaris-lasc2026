@@ -314,7 +314,7 @@ void OnTxTimeout(void){
 }
 
 void initDHT(){
-    dhtDriver.begin()
+    dhtDriver.begin();
 }
 
 void initGPS(){
@@ -362,7 +362,7 @@ void initGY87(){
     }
     
     if(!gy87.hasError){
-        Serial.println("GY87 initialized")
+        Serial.println("GY87 initialized");
     }
 }
 
